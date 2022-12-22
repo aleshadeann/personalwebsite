@@ -1,0 +1,50 @@
+body {
+  background-color: #fff0f3;
+}
+
+#navbar {
+  width: 98%;
+  background-color: white;
+  border: 4px solid black;
+  margin-right: auto;
+  margin-left: auto;
+  font-family: 'Bebas Neue', cursive;
+  font-size: 1.5em;
+}
+#nav {
+  display: flex;
+  width: 1000px;
+  background-color: white;
+  margin-left: auto;
+  margin-right: auto;
+}
+#nav a {
+  text-decoration: none;
+  color: black;
+}
+#nav a:hover {
+  color: #ff758f;
+}
+#nav > ul {
+  display: flex;
+  list-style: none;
+  margin-left: auto;
+  margin-right: auto;
+}
+#nav li {
+  margin-left: 25px;
+  margin-right: 25px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+#footer {
+  width: 100%;
+  background-color: black;
+  height: 50px;
+  margin-top: 30px;
+  color: #d3d3d3;
+}
+#footer p {
+  text-align: center;
+}

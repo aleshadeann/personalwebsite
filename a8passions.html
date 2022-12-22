@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="description" content="This is the third page for my final web publishing assignment. It contains two main sections about my two main passions: activism and dance. The first section has a video about racial inequality relating to access to education in Michigan that I made for an internship. There also is a presentation that I worked on about underfunded schools in Michigan that I worked on in collaboration with MDCR. Finally, I described a few of my past jobs and volunteer work that I have done relating to social justice activism. In the dance section I talk about my dance history and what I am doing currently. It also includes photos that span my entire dance career.">
+    <title>Passion Page</title>
+    <link rel="stylesheet" href="externalcss_a8.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet"> <!--bebas-->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet"> <!--poppins-->
+
+    <style>
+      #heading {
+        /* background-color: #ffccd5; */
+        width: 800px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        background-image: url("media/redheart.png");
+        background-repeat: no-repeat;
+        background-size: 175px;
+        background-position: 99% 10%;
+      }
+      #redheart {
+        width: 150px;
+        height: auto;
+        position: relative;
+        top: 0px;
+      }
+      #headingtext {
+        font-family: 'Bebas Neue', cursive;
+        font-size: 7.5em;
+        text-align: center;
+        margin: 0px;
+        margin-bottom: 0px;
+      }
+      #activism {
+        background-color: #ffccd5;
+        width: 1200px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 0px;
+        margin-bottom: 30px;
+        display: flex;
+        justify-content: space-evenly;
+      }
+      #aleft {
+        width: 575px;
+        height: 550px;
+        margin-top: auto;
+        margin-bottom: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        background-color: #fff0f3;
+      }
+      #alefttop {
+        display: flex;
+        justify-content: space-evenly;
+      }
+      #avideo video {
+        margin-top: auto;
+        margin-bottom: auto;
+        width: 280px;
+        height: 200px;
+      }
+      #avideotext {
+        width: 215px;
+        background-color: #ff758f;
+        margin-top: auto;
+        margin-bottom: auto;
+        font-family: 'Poppins', sans-serif;
+        font-size: 0.8em;
+        text-align: center;
+        padding: 5px;
+      }
+      #aleftbottom {
+        display: flex;
+        justify-content: space-evenly;
+      }
+      #apresentationtext {
+        width: 215px;
+        background-color: #ff758f;
+        margin-top: auto;
+        margin-bottom: auto;
+        font-family: 'Poppins', sans-serif;
+        font-size: 0.8em;
+        text-align: center;
+        text-decoration: none;
+        padding: 5px;
+      }
+      #apresentation {
+        margin-top: auto;
+        margin-bottom: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+      }
+      #apresentation p {
+        text-align: center;
+        font-family: 'Poppins', sans-serif;
+        margin: 3px;
+        font-size: 0.9em;
+        color: #555555;
+      }
+      #belowvideo {
+        color: #555555;;
+      }
+      #aright {
+        width: 500px;
+        /* margin-top: auto;
+        margin-bottom: auto; */
+        margin-top: 20px;
+        margin-bottom: 20px;
+        text-align: center;
+        padding-left: 12px;
+        padding-right: 12px;
+        font-family: 'Poppins', sans-serif;
+        border: 5px dashed #ff758f;
+      }
+      #activismword {
+        position: relative;
+        left: 150px;
+        bottom: 660px;
+        font-family: 'Bebas Neue', cursive;
+        font-size: 4.2em;
+      }
+      #dance {
+        background-color: #ffccd5;
+        width: 1200px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 0px;
+        margin-bottom: 30px;
+        display: flex;
+        flex-direction: column;
+      }
+      #dtext {
+        background-color: #fff0f3;
+        width: 990px;
+        margin-top: 50px;
+        margin-right: auto;
+        margin-left: auto;
+        box-shadow: 10px 10px 1px #ffb3c1;
+        font-family: 'Poppins', sans-serif;
+        text-align: center;
+        padding-top: 30px;
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-bottom: 30px;
+      }
+      #dphotos {
+        width: 935px;
+        height: 500px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        margin-right: auto;
+        margin-left: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+      }
+      #toprow {
+        width: 935px;
+        height: 235px;
+        display: flex;
+        justify-content: space-between;
+      }
+      #top1 {
+        background-color: grey;
+        width: 186px;
+        height: 235px;
+      }
+      #top1 img {
+        width: 186px;
+        height: 235px;
+      }
+      #top2 {
+        display:flex;
+        flex-direction: column;
+        justify-content: space-between;
+      }
+      #top2a {
+        background-color: grey;
+        width: 196px;
+        height: 112px;
+      }
+      #top2a img {
+        width: 196px;
+        height: 112px;
+      }
+      #top2b {
+        background-color: grey;
+        width: 196px;
+        height: 112px;
+      }
+      #top2b img {
+        width: 196px;
+        height: 112px;
+      }
+      #top3 {
+        background-color: grey;
+        width: 350px;
+        height: 235px;
+      }
+      #top3 img {
+        width: 350px;
+        height: 235px;
+      }
+      #top4 {
+        background-color: grey;
+        width: 170px;
+        height: 235px;
+      }
+      #top4 img {
+        width: 170px;
+        height: 235px;
+      }
+      #bottomrow {
+        width: 935px;
+        height: 235px;
+        display: flex;
+        justify-content: space-between;
+      }
+      #bottom1 {
+        background-color: grey;
+        width: 305px;
+        height: 235px;
+      }
+      #bottom1 img {
+        width: 305px;
+        height: 235px;
+      }
+      #bottom2 {
+        background-color: grey;
+        width: 305px;
+        height: 235px;
+      }
+      #bottom2 img {
+        width: 305px;
+        height: 235px;
+      }
+      #bottom3 {
+        background-color: grey;
+        width: 305px;
+        height: 235px;
+      }
+      #bottom3 img {
+        width: 305px;
+        height: 235px;
+      }
+      #danceword {
+        position: relative;
+        left: 1055px;
+        bottom: 980px;
+        font-family: 'Bebas Neue', cursive;
+        font-size: 4.5em;
+      }
+    </style>
+  </head>
+
+  <body>
+
+    <div id="navbar">
+      <div id="nav">
+        <ul>
+          <li><a href="assignment_08.html">Home</a></li>
+          <li><a href="a8school.html">School & Work</a></li>
+          <li><a href="a8passions.html">My Passions</a></li>
+          <li><a href="a8gallery.html">Gallery</a></li>
+        </ul>
+      </div> <!--nav-->
+    </div> <!--navbar-->
+
+    <div id="heading">
+      <!-- <img id="redheart" src="media/redheart.png" alt="Sketch of a red heart"> -->
+      <p id="headingtext">THINGS I AM PASSIONATE ABOUT</p>
+    </div> <!--heading-->
+
+    <div id="activism">
+      <div id="aleft">
+        <div id="alefttop">
+          <div id="avideo">
+            <video controls>
+              <source src="media/activismvideo.mp4">
+            </video>
+          </div> <!--avideo-->
+          <div id="avideotext">
+            <p>Here is a video that I made in 2020 through my internship with the University of Michigan School of Social Work. In this project, I explored racial inequality relating to access to education in Michigan.</p>
+          </div> <!--avideotext-->
+        </div> <!--alefttop-->
+        <div id="aleftbottom">
+          <div id="apresentationtext">
+            <p>Here is a presentation that I made with my colleagues Jordan and Matt for the Youth Power Statewide Forum Series. We presented our work to state representatives, superintendents, law enforcement, and other key stakeholders across Michigan in collaboration with the Michigan Department of Civil Rights.</p>
+          </div> <!--apresentationtext-->
+          <div id="apresentation">
+            <iframe src="media/activismpresentation.pdf"></iframe>
+            <p>Scroll over presentation to view or click</p>
+            <p> <a href="https://docs.google.com/presentation/d/1UwauhEpJB0Juhu_1w1PrUI-OQUVjUK5PNgsOjT8pwX8/edit?usp=sharing" target="_blank" id="belowvideo">here</a> to view it in full screen.</p>
+          </div> <!--apresentation-->
+        </div> <!--aleftbottom-->
+      </div> <!--aleft-->
+
+      <div id="aright">
+        <p>Given my intersecting identities and my dedication to equality, social justice activism is something that I have always been passionate about and involved with. Civil engagement and outreach are two things that I try to prioritize. During the past state representative election cycle in Michigan, I volunteered for two candidates. I loved the experience of building a grassroots organization with local candidates that are committed to directly improving the lives of their constituents. You can check out more on my resume, but I participated in phone banking and canvassing. I also use social media to encourage civic engagement by taking part in online discourse and having meaningful conversations with my friends and followers. Through the University of Michigan School of Social Work, I have gotten involved with many initiatives, including a trip to Camp Michigania for a social justice retreat with other students across Metro Detroit, as being a Fellow for two years and a summer intern (more of which you can see on the 'School & Work' page). I hope to pursue more social justice initiatives in Los Angeles and my hometown in the future. I am incredibly passionate about the potential ways that social media can be used for social change, and I hope to find a way to incorporate that into my future work.</p>
+      </div> <!--aright-->
+    </div> <!--activism-->
+    <div id="activismword">
+      ACTIVISM
+    </div> <!--activismword-->
+
+    <div id="dance">
+      <div id="dtext">
+        One of my greatest passions in life is dance. I began dancing when I was ten years old after my mom made me go to a dance camp while she was at work. Initially, I was not too fond of it, and I preferred gymnastics, which I was already enrolled in. After a few days of dance camp, I fell in love and formed close relationships with my future teacher. Watching the TV show, dance moms also inspired me to keep dancing and join a competition team at my studio. I danced at The Art of Dance on the competition team for four years. After that, I joined Power Dance Company to pursue a more competitive and commercial dance sphere. I competed here for three years, made so many friends, and my love for dance grew. I studied ballet, jazz, lyrical, modern, contemporary, hip-hop, and tap throughout my studio dance career. During 8th grade, I auditioned and made the Varsity Pom Pons dance team for my future high school. We performed at football games and basketball games and competed around Michigan. During the pandemic, I maintained my love for dance by taking advantage of the incredible online conventions and classes that I could find. Now, I am a part of USC Xpressions, a student-led contemporary and jazz-based dance company here on campus. I am so excited to keep dancing, especially being in LA now. Dancing is not contained to just the studio or the field for me, though. I dance wherever I am: in my dorm, at parties, and even in my head whenever I listen to music.
+      </div> <!--dtext-->
+      <div id="dphotos">
+        <div id="toprow">
+          <div id="top1">
+            <img src="media/top1.jpg" alt="Photo of me and my friend from our first dance competition">
+          </div> <!--top1-->
+          <div id="top2">
+            <div id="top2a">
+              <img src="media/top2a.jpg" alt="Photo of me and my Power Dance Company team performing hiphop">
+            </div> <!--top2a-->
+            <div id="top2b">
+              <img src="media/top2b.jpg" alt="Photo of me and my Power Dance Company contemporary small group">
+            </div> <!--top2b-->
+          </div> <!--top2-->
+          <div id="top3">
+            <img src="media/top3.jpg" alt="Photo of me and my highschool pom team">
+          </div> <!--top3-->
+          <div id="top4">
+            <img src="media/top44.jpg" alt="Photo of me from USC Xpressions Spring 2022 Team photo shoot">
+          </div> <!--top4-->
+        </div> <!--toprow-->
+        <div id="bottomrow">
+          <div id="bottom1">
+            <img src="media/bottom11.jpg" alt="Photo of USC Xpressions Spring 2022 Team">
+          </div> <!--bottom1-->
+          <div id="bottom2">
+            <img src="media/bottom2.jpg" alt="Photo of me from a contemprary dance photo shoot">
+          </div> <!--bottom2-->
+          <div id="bottom3">
+            <img src="media/bottom3.jpg" alt="Photo of me and my competitive dance team">
+          </div> <!--bottom3-->
+        </div> <!--bottomrow-->
+      </div> <!--dphotos-->
+    </div> <!--dance-->
+    <div id="danceword">
+      DANCE
+    </div> <!--danceword-->
+
+    <div id="footer">
+      <p>Alesha Dean-Weathersby 2022</p>
+    </div> <!--footer-->
+  </body>
+</html>
